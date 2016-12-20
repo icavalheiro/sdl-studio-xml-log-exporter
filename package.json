@@ -1,0 +1,23 @@
+{
+  "name": "log-exporter",
+  "version": "0.1.0",
+  "description": "Exports analysis logs from sdl studio to csv",
+  "main": "logExporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icavalheiro/sdl-studio-xml-log-exporter.git"
+  },
+  "author": "Ivan S. Cavalheiro",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/icavalheiro/sdl-studio-xml-log-exporter/issues"
+  },
+  "dependencies": {
+      "lazy-xml-parser": ">=1.0.4"
+  },
+  "homepage": "https://github.com/icavalheiro/sdl-studio-xml-log-exporter#readme",
+  "private": true
+}
