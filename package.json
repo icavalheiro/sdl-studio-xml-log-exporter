@@ -4,7 +4,8 @@
   "description": "Exports analysis logs from sdl studio to csv",
   "main": "logExporter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node logExporter.js"
   },
   "repository": {
     "type": "git",
