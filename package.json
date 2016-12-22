@@ -17,7 +17,7 @@
     "url": "https://github.com/icavalheiro/sdl-studio-xml-log-exporter/issues"
   },
   "dependencies": {
-      "lazy-xml-parser": ">=1.0.4"
+      "lazy-xml-parser": ">=1.1.2"
   },
   "homepage": "https://github.com/icavalheiro/sdl-studio-xml-log-exporter#readme",
   "private": true
