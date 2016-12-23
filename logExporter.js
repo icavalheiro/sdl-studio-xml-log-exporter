@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const xmlParser = require('lazy-xml-parser');
 const fs = require('fs');
 

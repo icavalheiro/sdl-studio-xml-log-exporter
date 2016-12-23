@@ -1,11 +1,14 @@
 {
   "name": "log-exporter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Exports analysis logs from sdl studio to csv",
   "main": "logExporter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node logExporter.js"
+    "log-exporter": "node logExporter.js"
+  },
+  "bin": {
+    "log-exporter": "logExporter.js"
   },
   "repository": {
     "type": "git",
