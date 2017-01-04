@@ -14,8 +14,8 @@ function processXml(path){
         var csv = fs.createWriteStream(pathToSave, {flags: 'w'});
         
         //writes header
-        csv.write('Filename,Reps,100% (TM),99% - 95%,99% - 95%,94% - 85%,94% - 85%,84% - 75%,84% - 75%,74% - 50%,74% - 50%,New,Total Words\n');
-        
+        csv.write('Filename,Reps,Cross-file Reps,100% (TM),99% - 95%,99% - 95%,94% - 85%,94% - 85%,84% - 75%,84% - 75%,74% - 50%,74% - 50%,New,Total Words\n');
+         
         //holder of the analyse task node
         var analyseTaskNode = null;
         
@@ -105,7 +105,8 @@ function processXml(path){
             var internalFuzzy95WC = getWc(internalFuzzy95);
             
             //write down to the csv
-            csv.write((crossFileRepeatsWC + repeatedWC) + ',');
+            csv.write((repeatedWC) + ',');
+            csv.write((crossFileRepeatsWC) + ',');
             csv.write((perfectWC + contextExactWC + exactWC) + ',');
             csv.write((fuzzy95WC) + ',');
             csv.write((internalFuzzy95WC) + ',');
